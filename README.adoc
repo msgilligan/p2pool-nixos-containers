@@ -1,0 +1,23 @@
+= P2Pool NixOS Containers
+
+A https://nixos.org[Nix] https://nix.dev/concepts/flakes.html[flake] defining https://wiki.nixos.org/wiki/NixOS_Containers[NixOS containers] for https://p2poolv2.org[P2Poolv2].
+
+The current focus is on using https://github.com/extra-container/extra-container[extra-container] to declaratively specify containers for testing and development.
+
+
+== Requirements
+
+You'll need either:
+
+* A NixOS system with https://github.com/extra-container/extra-container[extra-container] installed.
+* A `systemd`-based Linux system with **Nix** and `extra-container` installed.
+
+== Getting Started
+
+
+
+To start or reconfigure/restart the testnet4 container:
+
+----
+nix run . -- create --start
+----
