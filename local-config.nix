@@ -1,3 +1,4 @@
 {
-  rpcHMAC = "b0d928012ce362e4d47345a346595dc6$8f0b2dde3617aa4aeb7aaf15eaaa8f3f085b7963e30ea973743f32e585552b7a";
+  # password = 'p2pool'
+  rpcHMAC = "48457bdcd85e720afd7dbc9cba1aec57$566873a4436d943d8489f0ee7cdceb9c5ac71161e70d6b5ab7977af6a70da66e";
 }
