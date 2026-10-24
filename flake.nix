@@ -20,7 +20,7 @@
           in {
           # We are currently not using bitcoinix (nix-bitcoin) for testnet4
           # See: https://github.com/bitcoinix/bitcoinix/issues/17
-          containers.btctestnet4 = {
+          containers.p2pool-testnet4 = {
             autoStart = true; # Always start container along with the container host
 
             config = { config, pkgs, ... }: {
